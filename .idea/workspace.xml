@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9eb05d21-069a-4ecf-b91e-2a75474aa2f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/good_loan_approval_prep.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/good_loan_approval.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/good_loan_approval.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan_approval_8_columns.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/loan_approval_8_columns.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan_approval_dataset_extra.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/loan_approval_dataset_extra.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan_data_status_prediction.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/loan_data_status_prediction.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good_loan_approval_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/good_loan_approval_prep.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,29 +28,29 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="35QoHO2zZm1Flt1IZ6kj5mA2TIX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.good_loan_approval_prep.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "mustapha",
-    "last_opened_file_path": "/Users/asap/Documents/Msc cs/Machine Learn And Big data/Assignment/good-loan-approvals",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.good_loan_approval_prep.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mustapha&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/asap/Documents/Msc cs/Machine Learn And Big data/Assignment/good-loan-approvals&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Files" />
@@ -76,6 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1763051568422</updated>
       <workItem from="1763051569880" duration="3630000" />
+      <workItem from="1763074703737" duration="8054000" />
+      <workItem from="1763398276150" duration="1504000" />
     </task>
     <servers />
   </component>
