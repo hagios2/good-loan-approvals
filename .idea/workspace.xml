@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9eb05d21-069a-4ecf-b91e-2a75474aa2f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/good_loan_approval_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/good_loan_approval_prep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/loan_approval_preprocessed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/loan_approval_preprocessed.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good_loan_preprocess.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/good_loan_preprocess.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -75,11 +77,29 @@
       <workItem from="1763051569880" duration="3630000" />
       <workItem from="1763074703737" duration="8054000" />
       <workItem from="1763398276150" duration="1504000" />
+      <workItem from="1763589748694" duration="1954000" />
+      <workItem from="1763704022866" duration="11656000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/good_loan_preprocess.ipynb</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/good_loan_preprocess.ipynb</url>
+          <line>71</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/good_loan_approvals$good_loan_approval_prep.coverage" NAME="good_loan_approval_prep Coverage Results" MODIFIED="1763055082156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
