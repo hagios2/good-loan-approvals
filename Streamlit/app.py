@@ -19,6 +19,9 @@ import base64
 
 
 with st.sidebar:
+	logo = Image.open("logo.png")
+	st.image(logo)
+	
 	selected = option_menu(
 		menu_title="Menu",
 		options=["Home","Prediction","Model Monitoring","Our Team"],
@@ -31,9 +34,6 @@ with st.sidebar:
 
 
 
-
-
-
 #----------------------------------------------------------------------------------------------
 #----HOME
 #----------------------------------------------------------------------------------------------
@@ -41,10 +41,27 @@ with st.sidebar:
 
 
 if selected == "Home":
-	st.write("""
-	## Loan Default Prediction
-	Developed by: **Alpha Delta Squad**
-	""")
+	banner = Image.open("AD-SQUAD.png")
+	st.image(banner)
+	def load_lottieurl(url: str):
+		r = requests.get(url)
+		if r.status_code != 200:
+			return None
+		return r.json()
+
+	anime = "https://assets2.lottiefiles.com/packages/lf20_4kx2q32n.json"
+	anime_json = load_lottieurl(anime)
+	st_lottie(anime_json)
+
+
+# st.markdown("<h1 style='text-align: center;'>Loan Default Prediction App</h1>", unsafe_allow_html=True)
+
+# st_lottie(lottie, height=250)
+
+# st.write("""
+# Welcome to the **Loan Default Prediction System**.  
+# This app helps financial institutions instantly predict the likelihood of customer loan defaults using advanced machine learning models.
+# """)
 
 
 
@@ -116,25 +133,50 @@ if selected == "Model Monitoring":
 #----CONTACT
 #----------------------------------------------------------------------------------------------
 
-
-
 if selected == "Our Team":
-	st.title("Meet the Team")
-	st.markdown("View Notebook...")
-	st.write("""
-		  ## Alpha Delta Squad
-		  
-	1. Mustapha Abdallah - 22424206  
-    2. Emmanuel Oteng Wilson - 22425111  
-    3. Florence Manubea Affoh- 22428906
-    4. Daniel karikari - 22424563
-    5. Michael Opoku - 22427541
-    6. Desmond Techie - 22424555
-    7. Delight Sefiamor Akoe - 22424698
-    8. Saxel Awuku Yeboah- 22424842
-    9. Godwin Baah - 22424736
-	10. Vanessa Atta-Fynn - 22425700
-	""")
+    import streamlit as st
+    from streamlit_lottie import st_lottie
+    import requests
+
+    st.markdown("<h1 style='text-align:center; color:#f9753f;'>Meet the Team</h1>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align:center; color:#f9c13f;'>The Alpha Delta Squad behind the Loan Default Prediction App</p>", unsafe_allow_html=True)
+
+    # Load Lottie animation
+    def load_lottieurl(url: str):
+        r = requests.get(url)
+        if r.status_code != 200:
+            return None
+        return r.json()
+
+    anime_url = "https://assets2.lottiefiles.com/packages/lf20_4kx2q32n.json"
+    anime_json = load_lottieurl(anime_url)
+
+    # Create two columns for team list + animation
+    col_left, col_right = st.columns([2, 1])
+
+    # Left column: Team list with color accents
+    with col_left:
+        st.markdown("""
+        <ul style='color:#FFFFFF; font-size:16px; line-height:1.8;'>
+            <li style='color:#d74492;'>1. Mustapha Abdallah - 22424206</li>
+            <li style='color:#e5532d;'>2. Emmanuel Oteng Wilson - 22425111</li>
+            <li style='color:#f9753f;'>3. Florence Manubea Affoh - 22428906</li>
+            <li style='color:#f9c13f;'>4. Daniel Karikari - 22424563</li>
+            <li style='color:#d74492;'>5. Michael Opoku - 22427541</li>
+            <li style='color:#e5532d;'>6. Desmond Techie - 22424555</li>
+            <li style='color:#f9753f;'>7. Delight Sefiamor Akoe - 22424698</li>
+            <li style='color:#f9c13f;'>8. Saxel Awuku Yeboah - 22424842</li>
+            <li style='color:#d74492;'>9. Godwin Baah - 22424736</li>
+            <li style='color:#e5532d;'>10. Vanessa Atta-Fynn - 22425700</li>
+        </ul>
+        """, unsafe_allow_html=True)
+
+    # Right column: Lottie animation
+    with col_right:
+        st_lottie(anime_json, height=300, key="team_animation")
+
+
+
 	
 
 
